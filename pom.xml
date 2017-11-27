@@ -34,13 +34,13 @@
             <id>deployment</id>
             <name>Internal Releases</name>
             <url>http://18.216.90.133:32768/nexus/content/repositories/snapshots/</url>
-			<uniqueVersion>false</uniqueVersion>
+			<uniqueVersion>true</uniqueVersion>
         </repository>
         <snapshotRepository>
             <id>deployment</id>
             <name>Internal Snapshot Releases</name>
             <url>http://18.216.90.133:32768/nexus/content/repositories/snapshots/</url>
-			<uniqueVersion>false</uniqueVersion>
+			<uniqueVersion>true</uniqueVersion>
         </snapshotRepository>
     </distributionManagement>
 	<build>
